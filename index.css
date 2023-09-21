@@ -12,12 +12,12 @@
 	height: 100vh;
 	align-items: center;
 	color: #e7e7e7;
-	padding-top: 2rem;
+	padding: 1rem 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid #fff;
+	overflow: hidden;
 }
 .circle{
 	width: 15.65rem;
@@ -85,11 +85,10 @@ button i{
 	list-style: none;
 	color: #e7e7e7;
 	width: 15.65rem;
-	height: 15rem;
+	height: 13rem;
 	overflow: auto;
 	position: relative;
 	margin-top: 1rem;
-	border: 1px solid #fff;
 
 }
 .laps::-webkit-scrollbar{
@@ -103,7 +102,7 @@ button i{
 	text-align: center;
 	border: 1px solid #e7e7e7;
 	border-radius: 50px;
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 
 }
 
@@ -121,7 +120,7 @@ button i{
 	display: block;
 	position: fixed;
 	z-index: 1000;
-	bottom: .75rem;
+	bottom: 1rem;
 	left: 50%;
 	transform: translate(-50%);
 	width: 120px;
@@ -136,4 +135,22 @@ button i{
 	visibility: hidden;
 }
 
-@media(max-width: )
+@media(max-width: 55em){
+	.circle{
+		width: 18.65rem;
+		height: 18.65rem;
+	}
+	#timer{
+		font-size: 4rem;
+		width: 16.45rem;
+		height: 16.45rem;
+	}
+	button{ 
+		width: 90px;
+		height: 90px;
+	}
+	button i{
+	font-size: 2rem;
+	padding: 2.5px;
+
+}
