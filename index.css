@@ -5,30 +5,23 @@
 
 }
 
-body{
-	width: 100%;
-	background: #262626;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #e7e7e7;
-	overflow: hidden;
-	padding-top: 2rem;
-
-}
-
 
 .container{
+	background: #262626;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	color: #e7e7e7;
 	padding-top: 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid #fff;
 }
 .circle{
-	width: 250px;
-	height: 250px;
+	width: 15.65rem;
+	height: 15.65rem;
 	border-radius: 50%;
 	background: #e7e7e7;
 	display: flex;
@@ -57,8 +50,8 @@ body{
 
 #timer{
 	font-size: 3rem;
-	width: 240px;
-	height: 240px;
+	width: 14.45rem;
+	height: 14.45rem;
 	background: #262626;
 	border-radius: 50%;
 	display: flex;
@@ -91,11 +84,12 @@ button i{
 .laps{
 	list-style: none;
 	color: #e7e7e7;
-	width: 250px;
-	height: 250px;
+	width: 15.65rem;
+	height: 15rem;
 	overflow: auto;
 	position: relative;
 	margin-top: 1rem;
+	border: 1px solid #fff;
 
 }
 .laps::-webkit-scrollbar{
@@ -141,3 +135,5 @@ button i{
 .hidden{
 	visibility: hidden;
 }
+
+@media(max-width: )
