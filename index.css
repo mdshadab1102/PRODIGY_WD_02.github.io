@@ -72,6 +72,8 @@ button{
 	border-radius: 50%;
 	background: #262626;
 	cursor: pointer;
+	outline: none;
+	border: 1px solid #e7e7e7;
 }
 
 button i{
@@ -89,6 +91,7 @@ button i{
 	overflow: auto;
 	position: relative;
 	margin-top: 1rem;
+	text-align: center;
 
 }
 .laps::-webkit-scrollbar{
@@ -97,12 +100,12 @@ button i{
 
 .lap-item{
 	display: inline-block;
-	width: 100%;
-	padding: 10px;
+	width: 90%;
+	padding: 5px;
 	text-align: center;
 	border: 1px solid #e7e7e7;
 	border-radius: 50px;
-	margin-bottom: .5rem;
+	margin-bottom: .25rem;
 
 }
 
@@ -137,24 +140,21 @@ button i{
 
 @media(max-width: 55em){
 	.circle{
-		width: 18.65rem;
-		height: 18.65rem;
+		width: 17.65rem;
+		height: 17.65rem;
 	}
 	#timer{
-		font-size: 3.5rem;
-		width: 17.45rem;
-		height: 17.45rem;
+		font-size: 3rem;
+		width: 16.65rem;
+		height: 16.65rem;
 	}
 	.buttons{
 		margin-top: 1rem;
 	}
-	button{ 
-		width: 75px;
-		height: 75px;
-	}
-	button i{
-		font-size: 1.5rem;
-		padding: 2px;
+	.lap-item{
+		width: 70%;
+		padding: 2.5px;
+		font-size: .75rem;
 	}
 
 }
