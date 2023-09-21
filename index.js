@@ -106,6 +106,7 @@ resetBtn.addEventListener("click", function(){
 	bg.classList.remove("animation-bg");
 	laps.innerHTML = '';
 	laps.append(clearLapsBtn);
+	lapItem = 0;
 });
 
 // Lap Button
@@ -129,4 +130,5 @@ lapBtn.addEventListener("click", function() {
 clearLapsBtn.addEventListener("click", function() {
 	laps.innerHTML = '';
 	laps.append(clearLapsBtn);
+	lapItem = 0;
 });
